@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yupi.courseManage.Mapper.CourseMapper">
+
+    <resultMap id="BaseResultMap" type="com.yupi.courseManage.model.domain.Course">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="courseID" column="courseID" jdbcType="VARCHAR"/>
+            <result property="courseName" column="courseName" jdbcType="VARCHAR"/>
+            <result property="credits" column="credits" jdbcType="INTEGER"/>
+            <result property="courseType" column="courseType" jdbcType="VARCHAR"/>
+            <result property="location" column="location" jdbcType="VARCHAR"/>
+            <result property="courseStatus" column="courseStatus" jdbcType="INTEGER"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+            <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
+            <result property="userRole" column="userRole" jdbcType="INTEGER"/>
+            <result property="planetCode" column="planetCode" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,courseID,courseName,
+        credits,courseType,location,
+        courseStatus,createTime,updateTime,
+        isDelete,userRole,planetCode
+    </sql>
+</mapper>

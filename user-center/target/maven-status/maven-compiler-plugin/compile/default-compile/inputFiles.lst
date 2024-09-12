@@ -1,0 +1,14 @@
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/UserCenterApplication.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/service/impl/UserServiceImpl.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/exception/GlobalExceptionHandler.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/common/ErrorCode.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/model/domain/request/UserRegisterRequest.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/common/ResultUtils.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/service/UserService.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/Mapper/UserMapper.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/exception/BusinessException.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/controller/UserController.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/common/BaseResponse.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/model/domain/request/UserLoginRequest.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/model/domain/User.java
+/Users/suyu/Desktop/center/user-center/src/main/java/com/yupi/usercenter/constant/UserConstant.java
